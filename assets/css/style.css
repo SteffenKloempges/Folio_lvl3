@@ -91,12 +91,14 @@ main section:nth-of-type(2) p:nth-of-type(2){
 }
 main section:nth-of-type(2) img{
     display: inline;
+    margin-bottom: 100px;
     width:100px;
     height: 100px;
     padding-left: 93%;
 }
 /* ====Table Styling==== */
 main section:nth-of-type(2) table{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     margin-top: 60px;
     margin-left: 67%;
@@ -222,6 +224,7 @@ footer ul{
     padding-bottom: 40px;
 }
 footer ul li{
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     padding-top: 10px;
 }
